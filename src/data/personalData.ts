@@ -4,11 +4,13 @@ import polyRHIMAGE from './imagepPoject/polyRH.png';
 import DriveShareImage from './imagepPoject/DriveShare.png';
 import Aandekchi from './imagepPoject/aandkechi.png';
 import VirtualCampus from './imagepPoject/VirtualCampus.png';
+import PortfolioImage from './imagepPoject/portfolio.png';
+import profileImagee from './ayoub_picture.jpg';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',
   title: 'Développeur Full Stack',
-  profileImage: '/ayoub_picture.jpg',
+  profileImage: profileImagee,
   degrees: [
     'Future ingénierie en Informatique, Réseaux et Médias',
     'Licence en technologie de l’informatique',
@@ -85,6 +87,15 @@ export const projects: Project[] = [
     technologies: ['JavaFX' , 'Java' ,'MySQL' ],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/virtualCampus'
+  },
+  {
+    id: '6',
+    title: 'Portfolio',
+    description: 'Portfolio interactif présentant mes projets, compétences et expériences. Conçu avec une interface moderne et responsive, il met en valeur mes réalisations techniques à travers des descriptions, visuels et liens externes.',
+    image: PortfolioImage,
+    technologies: ['React' , 'emailjs-com' ,'predeploy' ],
+    demoUrl: '',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/portfolio'
   }
 ];
 

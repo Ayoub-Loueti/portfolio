@@ -7,6 +7,7 @@ import VirtualCampus from './imagepPoject/VirtualCampus.png';
 import PortfolioImage from './imagepPoject/portfolio.png';
 import profileImagee from './ayoub_picture.jpg';
 import posteChatImage from './imagepPoject/posetChat.png';
+import midaImage from './imagepPoject/MidaImage.png';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',
@@ -106,6 +107,15 @@ export const projects: Project[] = [
     technologies: ['React' , 'NodeJs' ,'ExpressJs','MongoDB','SocketIO','ChakraUI' ],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/PosteChat'
+  },
+  {
+    id: '8',
+    title: 'Mida',
+    description: 'Mida est une application web moderne pour restaurant, permettant aux utilisateurs de consulter le menu, réserver une table, parcourir une galerie de plats et gérer leur compte. Elle offre une interface responsive et une gestion dynamique des réservations.',
+    image: midaImage,
+    technologies: ['PHP' , 'MySQL' ,'JavaScript' ],
+    demoUrl: '',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/Mida'
   }
 ];
 

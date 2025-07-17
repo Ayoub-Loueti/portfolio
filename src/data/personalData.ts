@@ -8,6 +8,7 @@ import PortfolioImage from './imagepPoject/portfolio.png';
 import profileImagee from './ayoub_picture.jpg';
 import posteChatImage from './imagepPoject/posetChat.png';
 import midaImage from './imagepPoject/MidaImage.png';
+import GamingImage from './imagepPoject/GamingShop.jpg';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',
@@ -114,6 +115,15 @@ export const projects: Project[] = [
     description: 'Mida est une application web moderne pour restaurant, permettant aux utilisateurs de consulter le menu, réserver une table, parcourir une galerie de plats et gérer leur compte. Elle offre une interface responsive et une gestion dynamique des réservations.',
     image: midaImage,
     technologies: ['PHP' , 'MySQL' ,'JavaScript' ],
+    demoUrl: '',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/Mida'
+  },
+  {
+    id: '9',
+    title: 'Gaming Shop',
+    description: 'Gaming Shop est une application mobile multiplateforme pour la gestion d une boutique en ligne. Elle permet aux utilisateurs de parcourir des produits, gérer leur panier, passer des commandes et consulter l historique d achats.',
+    image: GamingImage,
+    technologies: ['C#', '.NET', 'Xamarin.Forms', 'MVVM'],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/Mida'
   }

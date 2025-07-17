@@ -9,6 +9,7 @@ import profileImagee from './ayoub_picture.jpg';
 import posteChatImage from './imagepPoject/posetChat.png';
 import midaImage from './imagepPoject/MidaImage.png';
 import GamingImage from './imagepPoject/GamingShop.png';
+import ProjetVille from './imagepPoject/ProjetVille.png';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',
@@ -126,6 +127,15 @@ export const projects: Project[] = [
     technologies: ['C#', '.NET', 'Xamarin.Forms', 'MVVM'],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/GamingShop'
+  },
+  {
+    id: '10',
+    title: 'ProjetVille',
+    description: 'ProjetVille est une application Qt/C++ simulant la gestion d\'une ville. Elle permet de modéliser et gérer différents bâtiments , d\'interagir avec une interface graphique, et de simuler l\'évolution urbaine à travers divers scénarios dynamiques.',
+    image: ProjetVille,
+    technologies: ['Qt', 'C++'],
+    demoUrl: '',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/ProjetVille'
   }
 ];
 

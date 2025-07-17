@@ -125,7 +125,7 @@ export const projects: Project[] = [
     image: GamingImage,
     technologies: ['C#', '.NET', 'Xamarin.Forms', 'MVVM'],
     demoUrl: '',
-    sourceUrl: 'https://github.com/Ayoub-Loueti/Mida'
+    sourceUrl: 'https://github.com/Ayoub-Loueti/GamingShop'
   }
 ];
 

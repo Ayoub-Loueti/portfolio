@@ -6,6 +6,7 @@ import Aandekchi from './imagepPoject/aandkechi.png';
 import VirtualCampus from './imagepPoject/VirtualCampus.png';
 import PortfolioImage from './imagepPoject/portfolio.png';
 import profileImagee from './ayoub_picture.jpg';
+import posteChatImage from './imagepPoject/posetChat.png';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',
@@ -96,6 +97,15 @@ export const projects: Project[] = [
     technologies: ['React' , 'emailjs-com' ,'predeploy' ],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/portfolio'
+  },
+  {
+    id: '7',
+    title: 'Poste Chat',
+    description: 'PosteChat est une application web de messagerie en temps réel permettant aux utilisateurs de discuter, créer des groupes et partager des messages instantanément, le tout dans une interface conviviale.',
+    image: posteChatImage,
+    technologies: ['React' , 'NodeJs' ,'ExpressJs','MongoDB','SocketIO','ChakraUI' ],
+    demoUrl: '',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/PosteChat'
   }
 ];
 

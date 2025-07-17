@@ -8,7 +8,7 @@ import PortfolioImage from './imagepPoject/portfolio.png';
 import profileImagee from './ayoub_picture.jpg';
 import posteChatImage from './imagepPoject/posetChat.png';
 import midaImage from './imagepPoject/MidaImage.png';
-import GamingImage from './imagepPoject/GamingShop.jpg';
+import GamingImage from './imagepPoject/GamingShop.png';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',

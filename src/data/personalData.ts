@@ -10,6 +10,7 @@ import posteChatImage from './imagepPoject/posetChat.png';
 import midaImage from './imagepPoject/MidaImage.png';
 import GamingImage from './imagepPoject/GamingShop.png';
 import ProjetVille from './imagepPoject/ProjetVille.png';
+import CodeZapImage from './imagepPoject/CodeZap.png';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',
@@ -89,6 +90,15 @@ export const projects: Project[] = [
     description: 'VirtualCampus est une application JavaFX simulant un campus intelligent, gérant bâtiments, étudiants, personnel et ressources. Elle intègre événements aléatoires, interface graphique dynamique, statistiques, et base de données pour une expérience immersive de gestion universitaire.',
     image: VirtualCampus,
     technologies: ['JavaFX' , 'Java' ,'MySQL' ],
+    demoUrl: '',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/virtualCampus'
+  },
+  {
+    id: '11',
+    title: 'CodeZap',
+    description: 'CodeZap est une application web moderne permettant d optimiser automatiquement du code JavaScript, React, Node.js et TypeScript grâce à l intelligence artificielle. L utilisateur saisit son code dans une interface élégante, l application l envoie à un serveur Flask qui utilise un modèle LLM (Ollama/Mistral) pour générer une version optimisée, puis affiche le résultat instantanément. CodeZap offre une expérience fluide, rapide et intuitive pour améliorer la qualité et la performance du code.',
+    image: CodeZapImage,
+    technologies: ['React', 'Flask', 'TailwindCSS', 'Ollama', 'Mistral', 'JavaScript', 'Python'],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/virtualCampus'
   },

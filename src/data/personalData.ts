@@ -100,7 +100,7 @@ export const projects: Project[] = [
     image: CodeZapImage,
     technologies: ['React', 'Flask', 'TailwindCSS', 'Ollama', 'Mistral', 'JavaScript', 'Python'],
     demoUrl: '',
-    sourceUrl: 'https://github.com/Ayoub-Loueti/virtualCampus'
+    sourceUrl: 'https://github.com/Ayoub-Loueti/CodeZap2'
   },
   {
     id: '6',

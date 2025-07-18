@@ -76,6 +76,15 @@ export const projects: Project[] = [
     sourceUrl: 'https://github.com/Ayoub-Loueti/couvoiturage'
   },
   {
+    id: '11',
+    title: 'CodeZap',
+    description: 'CodeZap est une application web qui optimise automatiquement du code JavaScript, React, Node.js et TypeScript grâce à l’IA. L’utilisateur saisit son code, qui est envoyé à un serveur Flask utilisant un modèle LLM pour générer une version optimisée, affichée instantanément dans l’interface.',
+    image: CodeZapImage,
+    technologies: ['React', 'Flask', 'TailwindCSS', 'Ollama', 'Mistral', 'JavaScript', 'Python'],
+    demoUrl: 'https://www.youtube.com/watch?v=cb3bCN9WtnA',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/CodeZap2'
+  },
+  {
     id: '4',
     title: '3andekchi Shkoon',
     description: '3andekchi Shkoon est une application tunisienne qui connecte ceux ayant besoin d’aide (tâches ménagères, cours, réparations…) avec des personnes disponibles à proximité. Elle facilite les échanges via géolocalisation, messagerie et système de notation fiable.',
@@ -92,15 +101,6 @@ export const projects: Project[] = [
     technologies: ['JavaFX' , 'Java' ,'MySQL' ],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/virtualCampus'
-  },
-  {
-    id: '11',
-    title: 'CodeZap',
-    description: 'CodeZap est une application web moderne permettant d optimiser automatiquement du code JavaScript, React, Node.js et TypeScript grâce à l intelligence artificielle. L utilisateur saisit son code dans une interface élégante, l application l envoie à un serveur Flask qui utilise un modèle LLM (Ollama/Mistral) pour générer une version optimisée, puis affiche le résultat instantanément. CodeZap offre une expérience fluide, rapide et intuitive pour améliorer la qualité et la performance du code.',
-    image: CodeZapImage,
-    technologies: ['React', 'Flask', 'TailwindCSS', 'Ollama', 'Mistral', 'JavaScript', 'Python'],
-    demoUrl: '',
-    sourceUrl: 'https://github.com/Ayoub-Loueti/CodeZap2'
   },
   {
     id: '6',

@@ -133,7 +133,7 @@ export const projects: Project[] = [
   {
     id: '12',
     title: 'PowerGym',
-    description: 'POWERGYM est une application web de gestion de salle de sport permettant aux utilisateurs de s inscrire, consulter les cours, gérer leur planning, et aux administrateurs de gérer les clients, les activités et les plannings. L application propose une interface responsive et une gestion sécurisée des utilisateurs.',
+    description: 'POWERGYM est une application web de gestion de salle de sport permettant aux utilisateurs de s inscrire, consulter les cours, gérer leur planning, et aux administrateurs de gérer les clients et les activités. L application propose une interface responsive et une gestion sécurisée.',
     image: powerGymPic,
     technologies: ['PHP', 'MySQL','JavaScript'],
     demoUrl: '',

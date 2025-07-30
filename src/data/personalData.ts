@@ -11,6 +11,7 @@ import midaImage from './imagepPoject/MidaImage.png';
 import GamingImage from './imagepPoject/GamingShop.png';
 import ProjetVille from './imagepPoject/ProjetVille.png';
 import CodeZapImage from './imagepPoject/CodeZap.png';
+import powerGymPic from './imagepPoject/powergympic.png';
 
 export const personalInfo: PersonalInfo = {
   name: 'Ayoub Loueti',
@@ -128,6 +129,15 @@ export const projects: Project[] = [
     technologies: ['PHP' , 'MySQL' ,'JavaScript' ],
     demoUrl: '',
     sourceUrl: 'https://github.com/Ayoub-Loueti/Mida'
+  },
+  {
+    id: '12',
+    title: 'PowerGym',
+    description: 'POWERGYM est une application web de gestion de salle de sport permettant aux utilisateurs de s inscrire, consulter les cours, gérer leur planning, et aux administrateurs de gérer les clients, les activités et les plannings. L application propose une interface responsive et une gestion sécurisée des utilisateurs.',
+    image: powerGymPic,
+    technologies: ['PHP', 'MySQL','JavaScript'],
+    demoUrl: '',
+    sourceUrl: 'https://github.com/Ayoub-Loueti/PowerGym'
   },
   {
     id: '9',
